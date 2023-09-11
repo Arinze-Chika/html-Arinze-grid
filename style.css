@@ -104,3 +104,18 @@ h1{
     background-color: black;
  }
 
+@media (max-width: 1026px){
+body{
+   height: 100%;
+   width: 100%;
+   padding-left: 100px;
+}   
+.container{
+   display: grid;
+   height: 100%;
+   width: 100%;
+}
+    h1{
+      width:250px;
+}
+}
